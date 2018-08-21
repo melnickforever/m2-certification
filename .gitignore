@@ -67,5 +67,5 @@ atlassian*
 /generated/*
 !/generated/.htaccess
 
-/s_logs/*
+/s_logs
 .DS_Store
