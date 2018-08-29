@@ -2,6 +2,8 @@
 return array (
   'modules' => 
   array (
+    'Dmelnyk_BlockViewModel' => 1,
+    'Dmelnyk_Command' => 1,
     'Magento_Store' => 1,
     'Magento_Directory' => 1,
     'Magento_AdvancedPricingImportExport' => 1,
