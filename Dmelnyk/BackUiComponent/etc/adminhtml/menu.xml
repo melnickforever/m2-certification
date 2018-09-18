@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Dmelnyk_BackUiComponent::top_level" module="Dmelnyk_BackUiComponent" resource="Magento_Backend::content" sortOrder="9999" title="Dmelnyk posts" parent="Magento_Sales::sales"/>
+        <add action="dmelnykbackend/post/index" id="Dmelnyk_BackUiComponent::list" module="Dmelnyk_BackUiComponent" parent="Dmelnyk_BackUiComponent::top_level" resource="Magento_Backend::content" sortOrder="9999" title="List"/>
+    </menu>
+</config>

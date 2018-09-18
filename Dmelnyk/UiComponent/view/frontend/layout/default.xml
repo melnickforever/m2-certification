@@ -2,7 +2,11 @@
 <page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block class="Dmelnyk\UiComponent\Block\FrontendUiComponentBlock" name="dmelnyk.uicomponent.frontend.uicomponent" template="Dmelnyk_UiComponent::frontend_uicomponent.phtml" />
+            <block name="dmelnyk.uicomponent.frontend.uicomponent" template="Dmelnyk_UiComponent::frontend_uicomponent.phtml" >
+                <arguments>
+                    <argument name="cmsPageList" xsi:type="object">\Dmelnyk\UiComponent\ViewModel\GetCmsPageList</argument>
+                </arguments>
+            </block>
         </referenceContainer>
     </body>
 </page>

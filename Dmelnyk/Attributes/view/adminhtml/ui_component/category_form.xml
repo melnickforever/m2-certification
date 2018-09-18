@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- file: app/code/Dmelnyk/Attributes/view/adminhtml/ui_component/category_form.xml -->
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="dmelnyk_settins">
+        <settings>
+            <collapsible>true</collapsible>
+            <label translate="true">Dmel settins</label>
+        </settings>
+        <field name="promo_text">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="sortOrder" xsi:type="number">10</item>
+                    <item name="dataType" xsi:type="string">string</item>
+                    <item name="formElement" xsi:type="string">textarea</item>
+                    <item name="label" xsi:type="string" translate="true">Promo Text</item>
+                    <item name="required" xsi:type="boolean">false</item>
+                </item>
+            </argument>
+        </field>
+    </fieldset>
+</form>
